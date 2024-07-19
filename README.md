@@ -32,3 +32,8 @@ This project implements the Quick Sort algorithm for an array of numbers using t
 
 5. Verify the Results:
 - Check the memory locations starting from 8001H to ensure the array is sorted.
+
+## Important Notes
+- The array length and elements must be correctly initialized in memory.
+- The stack size and memory locations are configured for the 8085 microprocessor. Adjustments may be needed for different setups.
+- Ensure the stack pointer is set to a safe memory area to avoid stack overflow or corruption.

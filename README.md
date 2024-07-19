@@ -16,14 +16,18 @@ This project implements the Quick Sort algorithm for an array of numbers using t
 
 ## How to Use
 1. Set up the Development Environment: Ensure you have an 8085 emulator like GNUSim8085 installed on your system.
+
 2. Load the Program:
 - Copy the provided assembly code into your emulator's editor.
 - Assemble the code to convert it into machine code.
+
 3. Initialize the Array:
 - Place the array length at memory location 8000H.
 - Store the array elements starting from memory location 8001H.
+
 4. Run the Program:
 - Execute the assembled code in the emulator.
 - The program will sort the array in ascending order.
+
 5. Verify the Results:
 - Check the memory locations starting from 8001H to ensure the array is sorted.

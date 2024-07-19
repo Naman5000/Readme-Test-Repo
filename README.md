@@ -15,7 +15,8 @@ This project implements the Quick Sort algorithm for an array of numbers using t
 - An 8085 microprocessor emulator or development environment (e.g., GNUSim8085).
 
 ## How to Use
-1. Set up the Development Environment: Ensure you have an 8085 emulator like GNUSim8085 installed on your system.
+1. Set up the Development Environment: 
+- Ensure you have an 8085 emulator like GNUSim8085 installed on your system.
 
 2. Load the Program:
 - Copy the provided assembly code into your emulator's editor.

@@ -1,35 +1,26 @@
-# Project Title: 8085 Assembly Language Quick Sort
+# 🚀 Cryptocurrency Price Converter 📈
 
-## Description
-This project implements the Quick Sort algorithm for an array of numbers using the 8085 microprocessor. The program sorts an array of integers stored in memory, demonstrating fundamental sorting techniques and stack management in assembly language.
+A simple Python tool that allows you to check real-time cryptocurrency prices in various world currencies using the CoinGecko API! Perfect for anyone looking to track the latest crypto prices with ease.
 
-## Features
-- Implements the Quick Sort algorithm.
-- Uses stack-based iteration to manage recursive calls.
-- Demonstrates partitioning logic in assembly language.
-- Sorts an array of integers stored in memory starting from a predefined address.
+## 🌟 Features
 
-## Prerequisites
-- Basic understanding of 8085 microprocessor architecture.
-- Familiarity with assembly language programming.
-- An 8085 microprocessor emulator or development environment (e.g., GNUSim8085).
+- **Real-Time Prices**: Get updated prices for popular cryptocurrencies.
+- **Multiple Currencies**: Convert to various currencies like USD, EUR, INR, and more.
+- **User-Friendly Interface**: Navigate easily with a terminal-based interface.
+- **Error Handling**: Friendly prompts to guide you in case of input errors.
 
-## How to Use
-1. Set up the Development Environment: 
-- Ensure you have an 8085 emulator like GNUSim8085 installed on your system.
-2. Load the Program:
-- Copy the provided assembly code into your emulator's editor.
-- Assemble the code to convert it into machine code.
-3. Initialize the Array:
-- Place the array length at memory location 8000H.
-- Store the array elements starting from memory location 8001H.
-4. Run the Program:
-- Execute the assembled code in the emulator.
-- The program will sort the array in ascending order.
-5. Verify the Results:
-- Check the memory locations starting from 8001H to ensure the array is sorted.
+## 💻 How to Run
 
-## Important Notes
-- The array length and elements must be correctly initialized in memory.
-- The stack size and memory locations are configured for the 8085 microprocessor. Adjustments may be needed for different setups.
-- Ensure the stack pointer is set to a safe memory area to avoid stack overflow or corruption.
+1. Save the file as `crypto_price_converter.py`.
+2. Open your terminal, navigate to the file location, and run:
+    ```bash
+    python crypto_price_converter.py
+    ```
+
+## 📋 Usage
+
+1. Enter a cryptocurrency name (e.g., `bitcoin`).
+2. Enter a currency code (e.g., `usd`).
+3. Instantly view the live price conversion!
+
+Stay up-to-date with the latest crypto prices and make informed decisions! 🚀💸

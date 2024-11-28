@@ -48,21 +48,7 @@ Welcome to **Breakout Game**, a classic arcade-style game built with Python and 
    ```bash
    python breakout.py
    ```
-
----
-
-## 🎨 Gameplay Preview
-
-🎥 *Add your game screenshots or videos here.*
-
----
-
-## 🌟 Future Enhancements
-
-- Add multiple levels with increasing difficulty.  
-- Introduce power-ups (e.g., extended paddle, multi-ball).  
-- Implement a scoring system and leaderboard.  
-
+   
 ---
 
 ### 🕹️ Ready to Play?  
